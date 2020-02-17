@@ -12,7 +12,7 @@
     "test": "run-p --race dev cy:run",
     "get-dark-cli": "curl https://dark-cli.storage.googleapis.com/latest/dark-cli-apple --output dark-cli-apple && chmod +x dark-cli-apple",
     "build-dark-assets": "PUBLIC_URL=DARK_STATIC_ASSETS_BASE_URL npm run export",
-    "deploy": "./dark-cli-apple --canvas $DARK_STATIC_ASSETS_BASE_URL --user $DARK_USERNAME --password $DARK_PASSWORD __sapper__/export"
+    "deploy": "./dark-cli-apple __sapper__/export --canvas $DARK_STATIC_ASSETS_BASE_URL --user $DARK_USERNAME --password $DARK_PASSWORD"
   },
   "dependencies": {
     "compression": "^1.7.1",
