@@ -42,7 +42,7 @@ If you get "Not Found" on this step, you need to visit [https://darklang.com/a/U
 
 1. Go to [https://darklang.com/a/USERNAME-CANVASNAME](https://darklang.com/a/USERNAME-CANVASNAME)
 2. Create a new `HTTP GET` handler with route `/`. For the handler expression, use `StaticAssets:serveLatest` -> `"index.html"`.
-3. Create a new `HTTP GET` handler with route `/:rest`. For the handler expression, use `StaticAssets:serveLatest` -> `rest`.
+3. Create a new `HTTP GET` handler with route `/:rest`. For the handler expression, use `StaticAssets:serveLatest` -> `rest`. Due to some peculiarities in how Dark prefers to serve `JSON` files, we need to serve them with a separate function.
 
 Like so.
 
