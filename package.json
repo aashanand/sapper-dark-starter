@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "sapper-dark-starter",
+  "description": "Sapper starter for Dark",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
