@@ -46,7 +46,7 @@ If you get "Not Found" on this step, you need to visit [https://darklang.com/a/U
 
 Like so.
 
-![backend handler](public/backend-handler.png)
+![backend handler](static/backend-handler.png)
 
 ## Demo
 Demo lives [here](https://aash-sapper-dark-starter.builtwithdark.com/).
